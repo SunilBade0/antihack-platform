@@ -1,0 +1,32 @@
+# Core AI
+anthropic>=1.0.0
+
+# Web dashboard
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+websockets>=12.0
+
+# HTTP / scraping
+aiohttp>=3.9.0
+aiofiles>=23.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+urllib3>=2.0.0
+certifi>=2024.0.0
+
+# Recon / infra
+python-whois>=0.9.0
+dnspython>=2.4.0
+sslyze>=5.2.0
+python-nmap>=0.7.1
+
+# Report generation
+jinja2>=3.1.0
+
+# CLI display
+rich>=13.0.0
+colorama>=0.4.6
+
+# Async support
+anyio>=4.0.0
